@@ -21,8 +21,6 @@
 })();
 
 
-
-
 (() => {
     const cheat = (async () => {
         let i = document.createElement('iframe');
@@ -30,17 +28,14 @@
         window.prompt = i.contentWindow.prompt.bind(window);
         i.remove();
 
-
         const id = prompt("Game ID:");
         const name = prompt("Game ID:");
         const amount = parseInt(prompt("Amount:"));
-
 
         let cache = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']]]).cache);
         const axios = cache.find((x) => x.exports?.a?.get).exports.a;
         const firebase = cache.find(x => x.exports?.a?.initializeApp).exports.a;
         const blooks = Object.keys(Object.values(cache).find(x => x.exports.a?.Black).exports.a);
-
 
         for (let i = 1; i <= 1000000; i++) {
             (async () => {
@@ -67,7 +62,7 @@
         }
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/global/floodGame.png?" + Date.now();
+    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/brawl/doubleEnemyXp.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
@@ -86,7 +81,6 @@
     }
     img.onerror = img.onabort = () => (img.src = null, cheat());
 })();
-
 
 // ==UserScript==
 // @name         Blooket AntiBan
@@ -110,7 +104,6 @@
     };
 })();
 
-
 (() => {
     const cheat = (async () => {
         let i = document.createElement('iframe');
@@ -118,17 +111,14 @@
         window.prompt = i.contentWindow.prompt.bind(window);
         i.remove();
 
-
         const id = prompt("Game ID:");
         const name = prompt("Game ID:");
         const amount = parseInt(prompt("Amount:"));
-
 
         let cache = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']]]).cache);
         const axios = cache.find((x) => x.exports?.a?.get).exports.a;
         const firebase = cache.find(x => x.exports?.a?.initializeApp).exports.a;
         const blooks = Object.keys(Object.values(cache).find(x => x.exports.a?.Black).exports.a);
-
 
         for (let i = 1; i <= 1000000; i++) {
             (async () => {
@@ -155,7 +145,7 @@
         }
     });
     let img = new Image;
-    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/global/floodGame.png?" + Date.now();
+    img.src = "https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/brawl/doubleEnemyXp.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
