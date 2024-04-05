@@ -29,7 +29,7 @@
         i.remove();
 
         const id = prompt("Game ID:");
-        const name = prompt("Game ID:");
+        const name = prompt("Names: ");
         const amount = parseInt(prompt("Amount:"));
 
         let cache = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']]]).cache);
